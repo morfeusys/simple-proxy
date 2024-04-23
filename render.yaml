@@ -1,7 +1,8 @@
 services:
-	- type: web
+  - type: web
     runtime: node
     name: reverse-proxy
     buildCommand: npm install
     startCommand: npm start
-    
+    envVars:
+      - key: PROXY_TARGET
