@@ -6,3 +6,4 @@ services:
     startCommand: npm start
     envVars:
       - key: PROXY_TARGET
+        sync: false
