@@ -1,0 +1,7 @@
+services:
+	- type: web
+    runtime: node
+    name: reverse-proxy
+    buildCommand: npm install
+    startCommand: npm start
+    
